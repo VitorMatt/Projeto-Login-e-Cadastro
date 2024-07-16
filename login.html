@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="containerUm">
+
+        <h1>Login</h1>
+
+        <b>
+            <a href="Cadastro.html">Cadastrar-se</a>
+        </b>
+
+    </div>
+    <div class="containerDois">
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Nome"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="emailDigitado" placeholder="exemplo@gmail.com"><br>
+
+        <label for="cpf">Cpf</label>
+        <input type="number" id="cpf" placeholder="111.111.111-11"><br>
+
+        <label for="senhaDigitada">Senha</label>
+        <input type="password" id="senhaDigitada" placeholder="6 a 10 linhas" maxlength="10" minlength="6"><br>
+
+        <button type="button" onclick="login()">
+            <b>Fazer login</b>
+        </button>
+
+        <b>
+        <div class="mensagem" id="mensagem"></div>
+        </b>
+    </div>
+
+    <script src="Cadastro&login.js"></script>
+</body>
+</html>
